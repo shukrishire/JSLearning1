@@ -5,8 +5,21 @@ output:
 data: '2022-03-24'
 ---
 
-
-```{r}
-x= 2+2
-print(x)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{r cars}
+data(cars)
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
