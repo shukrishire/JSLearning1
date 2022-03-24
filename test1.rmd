@@ -1,8 +1,9 @@
 ---
-title: "this is the html"
+title: "a title here"
 output:
     html_document:
 data: '2022-03-24'
+pagetitle: Test
 ---
 
 
@@ -29,13 +30,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-```{r}
-y = 2+2
-print(y+1)
-```
-
-
-```{r cars}
-summary(cars)
-```
