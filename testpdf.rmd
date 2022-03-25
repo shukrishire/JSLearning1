@@ -1,5 +1,5 @@
 ---
-title: "a title here"
+title: "This still works"
 output:
     pdf_document:
 data: '2022-03-24'
@@ -9,9 +9,13 @@ data: '2022-03-24'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r cars}
+```{r}
+
+y <-1 +1 # nolint
+print(y)
 data(cars)
 summary(cars)
+plot(cars)
 ```
 
 ## Including Plots
